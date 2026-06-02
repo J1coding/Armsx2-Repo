@@ -18,11 +18,11 @@
       "tintColor": "#2F6FAD",
       "versions": [
         {
-          "version": "1.2.2",
-          "date": "2026-06-01",
-          "localizedDescription": "Updated to ARMSX2 iOS 1.2.2.\n\nUpdated ARMSX2 iOS version display to 1.2.2.\nAdded battery percentage to the performance overlay.\nAdded device heat status to the performance overlay.\nAdded app RAM usage to the performance overlay.\nAdded Low Power Mode indicator when enabled.\nAdded color warnings for heat and low battery states.\nAdded new OSD/Overlay settings page.\nAdded OSD preset controls for Off, Simple, Detail, and Full.\nAdded OSD position setting.\nImproved performance overlay readability.",
-          "downloadURL": "https://j1coding.github.io/Armsx2-Repo/ipas/ARMSX2-iOSv1.2.2.ipa",
-          "size": 14005979,
+          "version": "1.2.3",
+          "date": "2026-06-02",
+          "localizedDescription": "Updated to ARMSX2 iOS 1.2.3.\n\nAdded JIT status display on the main Settings screen.\n\nAdded visual JIT readiness indicator so users can quickly tell whether JIT appears available.\n\nAdded StikDebug launch support from inside ARMSX2.\n\nAdded optional auto-open StikDebug support for users who rely on external JIT setup.\n\nAdded frontend/deep-link library export support for launchers like LudiHub.",
+          "downloadURL": "https://j1coding.github.io/Armsx2-Repo/ipas/ARMSX2-iOS-1.2.3.ipa",
+          "size": 14169974,
           "minOSVersion": "18.0"
         }
       ],
