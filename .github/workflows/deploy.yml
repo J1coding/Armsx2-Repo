@@ -1,0 +1,54 @@
+name: Build and Deploy armsx2-ios
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    env:
+      ARMSX2_PUBLIC_BASE_URL: https://ios.armsx2.net
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build project
+        run: npm run generate:source
+
+      - name: Validate generated source
+        run: |
+          npm run check:source
+          npm run validate:source
+
+      - name: Prepare deployment files
+        if: github.event_name == 'push'
+        run: |
+          rm -rf .deploy
+          mkdir -p .deploy
+          cp index.html apps.json checksums.json .nojekyll .deploy/
+          cp -R assets ipas public .deploy/
+
+      - name: Deploy to server
+        if: github.event_name == 'push'
+        uses: appleboy/scp-action@v1.0.0
+        with:
+          host: ${{ secrets.SERVER_HOST }}
+          username: armsx2-ios
+          password: ${{ secrets.SERVER_PASSWORD }}
+          source: ".deploy/*,.deploy/.nojekyll"
+          target: "/home/armsx2-ios/htdocs/ios.armsx2.net"
+          strip_components: 1
