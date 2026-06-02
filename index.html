@@ -1174,7 +1174,7 @@
       });
 
       document.querySelector("[data-action='feather']").addEventListener("click", () => {
-        window.location.href = `feather://source/${encodeURIComponent(canonicalSourceUrl)}`;
+        window.location.href = `feather://source?url=${encodeURIComponent(canonicalSourceUrl)}`;
       });
 
       document.querySelector("[data-action='copy']").addEventListener("click", async () => {
