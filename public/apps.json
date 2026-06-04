@@ -18,11 +18,11 @@
       "tintColor": "#2F6FAD",
       "versions": [
         {
-          "version": "1.2.3",
-          "date": "2026-06-02",
-          "localizedDescription": "Updated to ARMSX2 iOS 1.2.3.\n\nAdded JIT status display on the main Settings screen.\n\nAdded visual JIT readiness indicator so users can quickly tell whether JIT appears available.\n\nAdded StikDebug launch support from inside ARMSX2.\n\nAdded optional auto-open StikDebug support for users who rely on external JIT setup.\n\nAdded frontend/deep-link library export support for launchers like LudiHub.",
-          "downloadURL": "https://j1coding.github.io/Armsx2-Repo/ipas/ARMSX2-iOS-1.2.3.ipa",
-          "size": 14169974,
+          "version": "1.2.4",
+          "date": "2026-06-04",
+          "localizedDescription": "Updated to ARMSX2 iOS 1.2.4.\n\nFixed major Burnout Revenge graphics issues on iOS/Metal, including broken skybox rendering, bad scene artifacts, reflection glitches, and the glow issue! Other games benefit from this as well, GT4 is one example, so be sure to test!\n\nAdded @Dib1998 ARM64 VU fixes for Burnout, fixing reflections and the glow issue.\n\nImproved Burnout GameDB/GS hardware-fix handling so the right Burnout fixes apply without leaking unsafe settings into other games.\n\nFixed Metal blending behavior that affected Burnout and helped restore correct graphics output.\n\nImporting unsupported game, BIOS, or PNACH files now gives clearer guidance, and important setup errors stay visible until you dismiss them instead of disappearing too quickly.",
+          "downloadURL": "https://j1coding.github.io/Armsx2-Repo/ipas/ARMSX2-iOS-1.2.4.ipa",
+          "size": 14183785,
           "minOSVersion": "18.0"
         }
       ],
