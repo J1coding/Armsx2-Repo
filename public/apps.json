@@ -18,11 +18,11 @@
       "tintColor": "#2F6FAD",
       "versions": [
         {
-          "version": "1.2.4",
-          "date": "2026-06-04",
-          "localizedDescription": "Updated to ARMSX2 iOS 1.2.4.\n\nFixed major Burnout Revenge graphics issues on iOS/Metal, including broken skybox rendering, bad scene artifacts, reflection glitches, and the glow issue! Other games benefit from this as well, GT4 is one example, so be sure to test!\n\nAdded @Dib1998 ARM64 VU fixes for Burnout, fixing reflections and the glow issue.\n\nImproved Burnout GameDB/GS hardware-fix handling so the right Burnout fixes apply without leaking unsafe settings into other games.\n\nFixed Metal blending behavior that affected Burnout and helped restore correct graphics output.\n\nImporting unsupported game, BIOS, or PNACH files now gives clearer guidance, and important setup errors stay visible until you dismiss them instead of disappearing too quickly.",
-          "downloadURL": "https://j1coding.github.io/Armsx2-Repo/ipas/ARMSX2-iOS-1.2.4.ipa",
-          "size": 14183785,
+          "version": "1.3",
+          "date": "2026-06-05",
+          "localizedDescription": "Updated to ARMSX2 iOS 1.3.\n\nAdded the Burnout graphics skyfix path present in 1.2.4 to Burnout 3: Takedown.\n\nImproved EE performance behavior by removing old iPSX2 diagnostic overhead from hot emulation paths. Overall emulator performance is now improved, and device heat may be improved as well.\n\nVarious games have received corrected graphics thanks to @Dib1998 VU fix in 1.2.4\n\nFixed custom PNG texture replacements appearing too dark on iOS thanks to @yuliangtao\n\nUpdated app and OSD version display to ARMSX2 iOS 1.3.",
+          "downloadURL": "https://j1coding.github.io/Armsx2-Repo/ipas/ARMSX2-iOS-1.3.ipa",
+          "size": 14107294,
           "minOSVersion": "18.0"
         }
       ],
