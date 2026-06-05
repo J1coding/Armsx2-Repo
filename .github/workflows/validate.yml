@@ -8,6 +8,9 @@ jobs:
   validate:
     runs-on: ubuntu-latest
 
+    env:
+      ARMSX2_PUBLIC_BASE_URL: https://ios.armsx2.net
+
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
