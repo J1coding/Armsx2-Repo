@@ -19,10 +19,10 @@
       "versions": [
         {
           "version": "2.1",
-          "date": "2026-06-08",
-          "localizedDescription": "Updated to ARMSX2 iOS 2.1.\n\nUpdated ARMSX2 iOS metadata and OSD branding to ARMSX2 iOS 2.1.\n\nKept the current fast iOS ARM64 JIT path and integrated the recent EE-side optimization work: fastmem, MTVU, block linking, const propagation, and GPR cache work.\n\nRestored native-resolution iOS Metal GameDB hardware fixes after the PCSX2 2.7 settings reload path, so safe fixes like HPO/native scaling/align sprite survive properly.\n\nBrought over the mac/PCSX2 graphics fixes used to improve GTA, God of War, and related hardware-renderer behavior:\nARM64: microVU — fix scalar FMAC zeroing ACC's other lanes\nGS: Fix dirty reg handling\nGS: Fix temp rect handling",
-          "downloadURL": "https://j1coding.github.io/Armsx2-Repo/ipas/ARMSX2-iOS-2.1.ipa",
-          "size": 13670044,
+          "date": "2026-06-09",
+          "localizedDescription": "Updated to ARMSX2 iOS 2.1.\n\nBrought over new changes from MacOS:\n\nPorted the updated controller database.\n\nPorted shared fullscreen UI string/resource updates.\n\nImproved iOS 18 performance.",
+          "downloadURL": "https://j1coding.github.io/Armsx2-Repo/ipas/ARMSX2-iOS-2.1-rl2.ipa",
+          "size": 13669088,
           "minOSVersion": "18.0"
         }
       ],
