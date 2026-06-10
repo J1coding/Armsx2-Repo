@@ -20,9 +20,9 @@
         {
           "version": "2.1",
           "date": "2026-06-09",
-          "localizedDescription": "Updated to ARMSX2 iOS 2.1.\n\nBrought over new changes from MacOS:\n\nPorted the updated controller database.\n\nPorted shared fullscreen UI string/resource updates.\n\nImproved iOS 18 performance.",
-          "downloadURL": "https://j1coding.github.io/Armsx2-Repo/ipas/ARMSX2-iOS-2.1-rl2.ipa",
-          "size": 13669088,
+          "localizedDescription": "Updated to ARMSX2 iOS 2.1.\n\nUniversal JIT now supported.\n\nUniversal / UTM-Dolphin JIT script selector in Emulator settings, make sure to fully close/relaunch the app between switching Universal and UTM-Dolphin, because the code memory registration happens once when the VM thread is first created.\n\nUniversal script path using brk #0xf00d prepare + detach.\n\nLegacy UTM-Dolphin path using brk #0x69.\n\nPotential iOS 27-specific virtual button touch fix.",
+          "downloadURL": "https://j1coding.github.io/Armsx2-Repo/ipas/ARMSX2-iOS-2.1-rl3.ipa",
+          "size": 13676540,
           "minOSVersion": "18.0"
         }
       ],
