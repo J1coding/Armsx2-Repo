@@ -18,11 +18,11 @@
       "tintColor": "#2F6FAD",
       "versions": [
         {
-          "version": "2.1",
-          "date": "2026-06-09",
-          "localizedDescription": "Updated to ARMSX2 iOS 2.1.\n\nUniversal JIT now supported.\n\nUniversal / UTM-Dolphin JIT script selector in Emulator settings, make sure to fully close/relaunch the app between switching Universal and UTM-Dolphin, because the code memory registration happens once when the VM thread is first created.\n\nUniversal script path using brk #0xf00d prepare + detach.\n\nLegacy UTM-Dolphin path using brk #0x69.\n\nPotential iOS 27-specific virtual button touch fix.",
-          "downloadURL": "https://j1coding.github.io/Armsx2-Repo/ipas/ARMSX2-iOS-2.1-rl3.ipa",
-          "size": 13676540,
+          "version": "2.2",
+          "date": "2026-06-11",
+          "localizedDescription": "Updated to ARMSX2 iOS 2.2.\n\nUpdated OSD/FPS branding to ARMSX2 iOS 2.2.\n\nFixed controller rumble.\n\nImproved the ARM64 EE recompiler: GPR cache expansion, const folding, cached loads/stores, branch-likely support, wait-loop handling, full-clamp FPU path, and unaligned load/store native paths. This should improve performance quite a bit. Thank you to @zeruth for assisting.\n\nARM64: Port x86 iFPUd full clamp mode (eeClampMode=3) for EE FPU, fixes NFS Carbon hang courtesy of @isztldav",
+          "downloadURL": "https://j1coding.github.io/Armsx2-Repo/ipas/ARMSX2-iOS-2.2.ipa",
+          "size": 13712651,
           "minOSVersion": "18.0"
         }
       ],
