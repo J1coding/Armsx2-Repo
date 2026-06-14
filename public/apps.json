@@ -19,10 +19,10 @@
       "versions": [
         {
           "version": "2.2.1",
-          "date": "2026-06-13",
-          "localizedDescription": "Updated to ARMSX2 iOS 2.2.1.\n\nUpstream with PCSX2 where applicable:\n\nShared GS RT/DS sampling-hazard sample-area fix.\n\nGPU timing stats update fix.\n\nSPU2 volume / fast-forward volume safety guards.\n\nThank you to @isztldav",
-          "downloadURL": "https://j1coding.github.io/Armsx2-Repo/ipas/ARMSX2-iOS-2.2.1-rl3.ipa",
-          "size": 18934817,
+          "date": "2026-06-14",
+          "localizedDescription": "Updated to ARMSX2 iOS 2.2.1.\n\nFix RetroAcheivements login, fix acheivements not popping up in game, improved UI for RetroAcheivements (now available in quick settings to view the list for the current game being played), (still no Hardcore yet, waiting to be approved)\n\nThis release fixes an important bug in memory management that could lead to a crash mid game. Carried over from Mac work done by @isztldav. (Sync ARM64 microVU reserve fix from macOS.)",
+          "downloadURL": "https://j1coding.github.io/Armsx2-Repo/ipas/ARMSX2-iOS-2.2.1-rl4.ipa",
+          "size": 19004346,
           "minOSVersion": "18.0"
         }
       ],
